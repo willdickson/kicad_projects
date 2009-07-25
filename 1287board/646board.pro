@@ -1,4 +1,4 @@
-update=24/7/2009-23:25:33
+update=25/7/2009-00:40:01
 last_client=eeschema
 [general]
 version=1
@@ -39,8 +39,8 @@ UseNetN=0
 LabSize=60
 [eeschema/libraries]
 LibName1=power
-LibName2=/home/wbd/share/kicad/library/usb/USB
-LibName3=/home/wbd/share/kicad/library/atmel/atmel
+LibName2=/home/wbd/repos/kicad_projects/libraries/usb/USB
+LibName3=/home/wbd/repos/kicad_projects/libraries/atmel/atmel
 LibName4=device
 LibName5=conn
 LibName6=linear
