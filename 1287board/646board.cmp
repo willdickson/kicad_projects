@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CVpcb (20080825c) date = 25/7/2009-00:41:55
+Cmp-Mod V01 Created by CVpcb (20080825c) date = 25/7/2009-01:00:38
 
 BeginCmp
 TimeStamp = /4A68BF50;
@@ -151,7 +151,7 @@ BeginCmp
 TimeStamp = /4A68C9F1;
 Reference = X1;
 ValeurCmp = 16MHz;
-IdModule  = ;
+IdModule  = Crystal-TH;
 EndCmp
 
 EndListe

@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  25/7/2009-00:41:55
+# EESchema Netlist Version 1.1 created  25/7/2009-01:00:38
 (
  ( /4A68BF50 SM0805 C1 1uF
   ( 1 /PWR )
@@ -199,7 +199,7 @@
   ( 5 /GND )
   ( 6 /GND )
  )
- ( /4A68C9F1 $noname$ X1 16MHz
+ ( /4A68C9F1 Crystal-TH X1 16MHz
   ( 1 N-000061 )
   ( 2 N-000060 )
  )
