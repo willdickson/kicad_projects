@@ -1,11 +1,11 @@
 EESchema Schematic File Version 2
-LIBS:power,/home/wbd/repos/kicad_projects/libraries/usb/USB,/home/wbd/repos/kicad_projects/libraries/atmel/atmel,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./646board.cache
+LIBS:power,/home/wbd/repos/kicad_projects/libraries/usb/USB,/home/wbd/repos/kicad_projects/libraries/atmel/atmel,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 1 1
 Title ""
-Date "24 jul 2009"
+Date "26 jul 2009"
 Rev ""
 Comp ""
 Comment1 ""

@@ -1,0 +1,479 @@
+# EESchema Netlist Version 1.1 created  26/7/2009-19:59:35
+(
+ ( /4A6A45A4 $noname  P6 CONN_5X2 {Lib=CONN_5X2}
+  (    1 /E0 )
+  (    2 /E1 )
+  (    3 /E2 )
+  (    4 /E3 )
+  (    5 /E4 )
+  (    6 /E5 )
+  (    7 /E6 )
+  (    8 /E7 )
+  (    9 /PWR )
+  (   10 /GND )
+ )
+ ( /4A6A45A2 $noname  P3 CONN_5X2 {Lib=CONN_5X2}
+  (    1 /F0 )
+  (    2 /F1 )
+  (    3 /F2 )
+  (    4 /F3 )
+  (    5 /F4 )
+  (    6 /F5 )
+  (    7 /F6 )
+  (    8 /F7 )
+  (    9 /PWR )
+  (   10 /GND )
+ )
+ ( /4A6A45A0 $noname  P5 CONN_5X2 {Lib=CONN_5X2}
+  (    1 /D0 )
+  (    2 /D1 )
+  (    3 /D2 )
+  (    4 /D3 )
+  (    5 /D4 )
+  (    6 /D5 )
+  (    7 /D6 )
+  (    8 /D7 )
+  (    9 /PWR )
+  (   10 /GND )
+ )
+ ( /4A6A459D $noname  P2 CONN_5X2 {Lib=CONN_5X2}
+  (    1 /C0 )
+  (    2 /C1 )
+  (    3 /C2 )
+  (    4 /C3 )
+  (    5 /C4 )
+  (    6 /C5 )
+  (    7 /C6 )
+  (    8 /C7 )
+  (    9 /PWR )
+  (   10 /GND )
+ )
+ ( /4A6A4585 $noname  P4 CONN_5X2 {Lib=CONN_5X2}
+  (    1 /B0 )
+  (    2 /B1 )
+  (    3 /B2 )
+  (    4 /B3 )
+  (    5 /B4 )
+  (    6 /B5 )
+  (    7 /B6 )
+  (    8 /B7 )
+  (    9 /PWR )
+  (   10 /GND )
+ )
+ ( /4A6A457E $noname  P1 CONN_5X2 {Lib=CONN_5X2}
+  (    1 /A0 )
+  (    2 /A1 )
+  (    3 /A2 )
+  (    4 /A3 )
+  (    5 /A4 )
+  (    6 /A5 )
+  (    7 /A6 )
+  (    8 /A7 )
+  (    9 /PWR )
+  (   10 /GND )
+ )
+ ( /4A6A3FF7 $noname  U2 USB {Lib=USB}
+  (    1 /PWR )
+  (    2 N-000031 )
+  (    3 N-000028 )
+  (    4 ? )
+  (    5 /GND )
+  (    6 /GND )
+ )
+ ( /4A6A3E88 $noname  U1 AT90USB1287 {Lib=AT90USB1287}
+  (  PAD /GND )
+  (    1 /E6 )
+  (    2 /E7 )
+  (    3 /PWR )
+  (    4 N-000030 )
+  (    5 N-000029 )
+  (    6 /GND )
+  (    7 N-000027 )
+  (    8 /PWR )
+  (    9 /E3 )
+  (   10 /B0 )
+  (   11 /B1 )
+  (   12 /B2 )
+  (   13 /B3 )
+  (   14 /B4 )
+  (   15 /B5 )
+  (   16 /B6 )
+  (   17 /B7 )
+  (   18 /E4 )
+  (   19 /E5 )
+  (   20 N-000032 )
+  (   21 /PWR )
+  (   22 /GND )
+  (   23 N-000060 )
+  (   24 N-000061 )
+  (   25 /D0 )
+  (   26 /D1 )
+  (   27 /D2 )
+  (   28 /D3 )
+  (   29 /D4 )
+  (   30 /D5 )
+  (   31 /D6 )
+  (   32 /D7 )
+  (   33 /E0 )
+  (   34 /E1 )
+  (   35 /C0 )
+  (   36 /C1 )
+  (   37 /C2 )
+  (   38 /C3 )
+  (   39 /C4 )
+  (   40 /C5 )
+  (   41 /C6 )
+  (   42 /C7 )
+  (   43 /E2 )
+  (   44 /A7 )
+  (   45 /A6 )
+  (   46 /A5 )
+  (   47 /A4 )
+  (   48 /A3 )
+  (   49 /A2 )
+  (   50 /A1 )
+  (   51 /A0 )
+  (   52 /PWR )
+  (   53 /GND )
+  (   54 /F7 )
+  (   55 /F6 )
+  (   56 /F5 )
+  (   57 /F4 )
+  (   58 /F3 )
+  (   59 /F2 )
+  (   60 /F1 )
+  (   61 /F0 )
+  (   62 N-000026 )
+  (   63 /GND )
+  (   64 /PWR )
+ )
+ ( /4A69FDCB $noname  C7 0.01uf {Lib=CP}
+  (    1 /PWR )
+  (    2 /GND )
+ )
+ ( /4A68CB71 $noname  D1 LED {Lib=LED}
+  (    1 N-000033 )
+  (    2 /D6 )
+ )
+ ( /4A68CB5A $noname  R4 1K {Lib=R}
+  (    1 /PWR )
+  (    2 N-000033 )
+ )
+ ( /4A68CAAC $noname  C6 0.1uF {Lib=CP}
+  (    1 N-000026 )
+  (    2 /GND )
+ )
+ ( /4A68CA0F $noname  C5 18pF {Lib=CP}
+  (    1 N-000060 )
+  (    2 /GND )
+ )
+ ( /4A68CA0C $noname  C2 18pF {Lib=CP}
+  (    1 N-000061 )
+  (    2 /GND )
+ )
+ ( /4A68C9F1 $noname  X1 16MHz {Lib=CRYSTAL}
+  (    1 N-000061 )
+  (    2 N-000060 )
+ )
+ ( /4A68C98E $noname  SW1 SW_PUSH {Lib=SW_PUSH}
+  (    1 /GND )
+  (    2 N-000032 )
+ )
+ ( /4A68C8FE $noname  R3 1K {Lib=R}
+  (    1 /E2 )
+  (    2 /GND )
+ )
+ ( /4A68C286 $noname  C3 1uF {Lib=CP}
+  (    1 N-000027 )
+  (    2 /GND )
+ )
+ ( /4A68C112 $noname  R1 22 {Lib=R}
+  (    1 N-000030 )
+  (    2 N-000031 )
+ )
+ ( /4A68C10E $noname  R2 22 {Lib=R}
+  (    1 N-000029 )
+  (    2 N-000028 )
+ )
+ ( /4A68BF53 $noname  C4 0.1uF {Lib=CP}
+  (    1 /PWR )
+  (    2 /GND )
+ )
+ ( /4A68BF50 $noname  C1 1uF {Lib=CP}
+  (    1 /PWR )
+  (    2 /GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C7
+ CP*
+ SM*
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C6
+ CP*
+ SM*
+$endlist
+$component C5
+ CP*
+ SM*
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C3
+ CP*
+ SM*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C4
+ CP*
+ SM*
+$endlist
+$component C1
+ CP*
+ SM*
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+/Net 1 "GND"
+ P6 10
+ P3 10
+ P5 10
+ P2 10
+ P4 10
+ P1 10
+ U2 5
+ U2 6
+ U1 63
+ U1 PAD
+ U1 53
+ U1 22
+ U1 6
+ C7 2
+ C6 2
+ C5 2
+ C2 2
+ SW1 1
+ R3 2
+ C3 2
+ C4 2
+ C1 2
+/Net 2 "F3"
+ P3 4
+ U1 58
+/Net 3 "F7"
+ P3 8
+ U1 54
+/Net 4 "E5"
+ P6 6
+ U1 19
+/Net 5 "E1"
+ P6 2
+ U1 34
+/Net 6 "E4"
+ P6 5
+ U1 18
+/Net 7 "E0"
+ P6 1
+ U1 33
+/Net 8 "F6"
+ P3 7
+ U1 55
+/Net 9 "F2"
+ P3 3
+ U1 59
+/Net 10 "D7"
+ P5 8
+ U1 32
+/Net 11 "D3"
+ P5 4
+ U1 28
+/Net 12 "D6"
+ P5 7
+ U1 31
+ D1 2
+/Net 13 "D2"
+ P5 3
+ U1 27
+/Net 14 "B7"
+ P4 8
+ U1 17
+/Net 15 "B3"
+ P4 4
+ U1 13
+/Net 16 "B6"
+ P4 7
+ U1 16
+/Net 17 "B2"
+ P4 3
+ U1 12
+/Net 18 "C7"
+ P2 8
+ U1 42
+/Net 19 "C3"
+ P2 4
+ U1 38
+/Net 20 "C6"
+ P2 7
+ U1 41
+/Net 21 "C2"
+ P2 3
+ U1 37
+/Net 22 "A6"
+ P1 7
+ U1 45
+/Net 23 "A2"
+ P1 3
+ U1 49
+/Net 24 "A7"
+ P1 8
+ U1 44
+/Net 25 "A3"
+ P1 4
+ U1 48
+Net 26 ""
+ U1 62
+ C6 1
+Net 27 ""
+ U1 7
+ C3 1
+Net 28 ""
+ U2 3
+ R2 2
+Net 29 ""
+ U1 5
+ R2 1
+Net 30 ""
+ U1 4
+ R1 1
+Net 31 ""
+ U2 2
+ R1 2
+Net 32 ""
+ U1 20
+ SW1 2
+Net 33 ""
+ D1 1
+ R4 2
+/Net 34 "A1"
+ P1 2
+ U1 50
+/Net 35 "A5"
+ P1 6
+ U1 46
+/Net 36 "A0"
+ P1 1
+ U1 51
+/Net 37 "A4"
+ P1 5
+ U1 47
+/Net 38 "C0"
+ P2 1
+ U1 35
+/Net 39 "C4"
+ P2 5
+ U1 39
+/Net 40 "C1"
+ P2 2
+ U1 36
+/Net 41 "C5"
+ P2 6
+ U1 40
+/Net 42 "B0"
+ P4 1
+ U1 10
+/Net 43 "B4"
+ P4 5
+ U1 14
+/Net 44 "B1"
+ P4 2
+ U1 11
+/Net 45 "B5"
+ P4 6
+ U1 15
+/Net 46 "D0"
+ P5 1
+ U1 25
+/Net 47 "D4"
+ P5 5
+ U1 29
+/Net 48 "D1"
+ P5 2
+ U1 26
+/Net 49 "D5"
+ P5 6
+ U1 30
+/Net 50 "F0"
+ P3 1
+ U1 61
+/Net 51 "F4"
+ P3 5
+ U1 57
+/Net 52 "E2"
+ P6 3
+ U1 43
+ R3 1
+/Net 53 "E6"
+ P6 7
+ U1 1
+/Net 54 "E3"
+ P6 4
+ U1 9
+/Net 55 "E7"
+ P6 8
+ U1 2
+/Net 56 "PWR"
+ P6 9
+ P3 9
+ P5 9
+ P2 9
+ P4 9
+ P1 9
+ U2 1
+ U1 8
+ U1 3
+ U1 52
+ U1 21
+ U1 64
+ C7 1
+ R4 1
+ C4 1
+ C1 1
+/Net 57 "F1"
+ P3 2
+ U1 60
+/Net 58 "F5"
+ P3 6
+ U1 56
+Net 60 ""
+ U1 23
+ C5 1
+ X1 2
+Net 61 ""
+ U1 24
+ C2 1
+ X1 1
+}
+#End
