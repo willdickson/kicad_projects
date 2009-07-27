@@ -1,0 +1,295 @@
+# EESchema Netlist Version 1.1 created  27/7/2009-00:44:23
+(
+ ( /4A68BF50 $noname$ C2 1uF
+  ( 1 /PWR )
+  ( 2 /GND )
+ )
+ ( /4A68C286 $noname$ C3 1uF
+  ( 1 N-000028 )
+  ( 2 /GND )
+ )
+ ( /4A68BF53 $noname$ C5 0.1uF
+  ( 1 /PWR )
+  ( 2 /GND )
+ )
+ ( /4A68CA0C $noname$ C6 18pF
+  ( 1 N-000069 )
+  ( 2 /GND )
+ )
+ ( /4A69FDCB $noname$ C7 0.01uf
+  ( 1 /PWR )
+  ( 2 /GND )
+ )
+ ( /4A68CA0F $noname$ C8 18pF
+  ( 1 N-000068 )
+  ( 2 /GND )
+ )
+ ( /4A68CAAC $noname$ C9 0.1uF
+  ( 1 N-000027 )
+  ( 2 /GND )
+ )
+ ( /4A68CB71 LEDV D1 LED
+  ( 1 N-000034 )
+  ( 2 /E0 )
+ )
+ ( /4A6A457E PIN_ARRAY_5x2 P1 CONN_5X2
+  ( 1 /A0 )
+  ( 2 /A1 )
+  ( 3 /A2 )
+  ( 4 /A3 )
+  ( 5 /A4 )
+  ( 6 /A5 )
+  ( 7 /A6 )
+  ( 8 /A7 )
+  ( 9 /PWR )
+  ( 10 /GND )
+ )
+ ( /4A6A459D PIN_ARRAY_5x2 P2 CONN_5X2
+  ( 1 /C0 )
+  ( 2 /C1 )
+  ( 3 /C2 )
+  ( 4 /C3 )
+  ( 5 /C4 )
+  ( 6 /C5 )
+  ( 7 /C6 )
+  ( 8 /C7 )
+  ( 9 /PWR )
+  ( 10 /GND )
+ )
+ ( /4A6A45A2 PIN_ARRAY_5x2 P3 CONN_5X2
+  ( 1 /F0 )
+  ( 2 /F1 )
+  ( 3 /F2 )
+  ( 4 /F3 )
+  ( 5 /F4 )
+  ( 6 /F5 )
+  ( 7 /F6 )
+  ( 8 /F7 )
+  ( 9 /PWR )
+  ( 10 /GND )
+ )
+ ( /4A6CBE19 $noname$ P4 CONN_2
+  ( 1 N-000005 )
+  ( 2 N-000057 )
+ )
+ ( /4A6A4585 PIN_ARRAY_5x2 P5 CONN_5X2
+  ( 1 /B0 )
+  ( 2 /B1 )
+  ( 3 /B2 )
+  ( 4 /B3 )
+  ( 5 /B4 )
+  ( 6 /B5 )
+  ( 7 /B6 )
+  ( 8 /B7 )
+  ( 9 /PWR )
+  ( 10 /GND )
+ )
+ ( /4A6A45A0 PIN_ARRAY_5x2 P6 CONN_5X2
+  ( 1 /D0 )
+  ( 2 /D1 )
+  ( 3 /D2 )
+  ( 4 /D3 )
+  ( 5 /D4 )
+  ( 6 /D5 )
+  ( 7 /D6 )
+  ( 8 /D7 )
+  ( 9 /PWR )
+  ( 10 /GND )
+ )
+ ( /4A6A45A4 PIN_ARRAY_5x2 P7 CONN_5X2
+  ( 1 /E0 )
+  ( 2 /E1 )
+  ( 3 /E2 )
+  ( 4 /E3 )
+  ( 5 /E4 )
+  ( 6 /E5 )
+  ( 7 /E6 )
+  ( 8 /E7 )
+  ( 9 /PWR )
+  ( 10 /GND )
+ )
+ ( /4A6CD444 $noname$ P8 CONN_2
+  ( 1 /E1 )
+  ( 2 /GND )
+ )
+ ( /4A6CC977 R4 R1 47K
+  ( 1 /PWR )
+  ( 2 N-000033 )
+ )
+ ( /4A6CCAE0 R4 R2 47K
+  ( 1 /PWR )
+  ( 2 /E2 )
+ )
+ ( /4A68C112 R4 R3 22
+  ( 1 N-000031 )
+  ( 2 N-000032 )
+ )
+ ( /4A68C10E R4 R4 22
+  ( 1 N-000030 )
+  ( 2 N-000029 )
+ )
+ ( /4A68CB5A R4 R5 1K
+  ( 1 /PWR )
+  ( 2 N-000034 )
+ )
+ ( /4A68C98E $noname$ SW1 SW_PUSH
+  ( 1 /GND )
+  ( 2 N-000033 )
+ )
+ ( /4A6CCADE $noname$ SW2 SW_PUSH
+  ( 1 /GND )
+  ( 2 /E2 )
+ )
+ ( /4A6A3FF7 usb_b_mini U1 USB
+  ( 1 /PWR )
+  ( 2 N-000032 )
+  ( 3 N-000029 )
+  ( 4 ? )
+  ( 5 /GND )
+  ( 6 /GND )
+ )
+ ( /4A6A3E88 TQFP_64 U2 AT90USB1287
+  ( 1 /E6 )
+  ( 2 /E7 )
+  ( 3 /PWR )
+  ( 4 N-000031 )
+  ( 5 N-000030 )
+  ( 6 /GND )
+  ( 7 N-000028 )
+  ( 8 /PWR )
+  ( 9 /E3 )
+  ( 10 /B0 )
+  ( 11 /B1 )
+  ( 12 /B2 )
+  ( 13 /B3 )
+  ( 14 /B4 )
+  ( 15 /B5 )
+  ( 16 /B6 )
+  ( 17 /B7 )
+  ( 18 /E4 )
+  ( 19 /E5 )
+  ( 20 N-000033 )
+  ( 21 /PWR )
+  ( 22 /GND )
+  ( 23 N-000068 )
+  ( 24 N-000069 )
+  ( 25 /D0 )
+  ( 26 /D1 )
+  ( 27 /D2 )
+  ( 28 /D3 )
+  ( 29 /D4 )
+  ( 30 /D5 )
+  ( 31 /D6 )
+  ( 32 /D7 )
+  ( 33 /E0 )
+  ( 34 /E1 )
+  ( 35 /C0 )
+  ( 36 /C1 )
+  ( 37 /C2 )
+  ( 38 /C3 )
+  ( 39 /C4 )
+  ( 40 /C5 )
+  ( 41 /C6 )
+  ( 42 /C7 )
+  ( 43 /E2 )
+  ( 44 /A7 )
+  ( 45 /A6 )
+  ( 46 /A5 )
+  ( 47 /A4 )
+  ( 48 /A3 )
+  ( 49 /A2 )
+  ( 50 /A1 )
+  ( 51 /A0 )
+  ( 52 /PWR )
+  ( 53 /GND )
+  ( 54 /F7 )
+  ( 55 /F6 )
+  ( 56 /F5 )
+  ( 57 /F4 )
+  ( 58 /F3 )
+  ( 59 /F2 )
+  ( 60 /F1 )
+  ( 61 /F0 )
+  ( 62 N-000027 )
+  ( 63 /GND )
+  ( 64 /PWR )
+  ( PAD /GND )
+ )
+ ( /4A6CBC45 14dip300 U3 AD595-AQ
+  ( 1 N-000005 )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 /GND )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 /GND )
+  ( 8 /A0 )
+  ( 9 /A0 )
+  ( 10 ? )
+  ( 11 /PWR )
+  ( 12 ? )
+  ( 13 /GND )
+  ( 14 N-000057 )
+ )
+ ( /4A68C9F1 Crystal-TH X1 16MHz
+  ( 1 N-000069 )
+  ( 2 N-000068 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C2
+ CP*
+ SM*
+$endlist
+$component C3
+ CP*
+ SM*
+$endlist
+$component C5
+ CP*
+ SM*
+$endlist
+$component C6
+ CP*
+ SM*
+$endlist
+$component C7
+ CP*
+ SM*
+$endlist
+$component C8
+ CP*
+ SM*
+$endlist
+$component C9
+ CP*
+ SM*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}
