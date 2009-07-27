@@ -1,52 +1,52 @@
-Cmp-Mod V01 Created by CVpcb (20080825c) date = 27/7/2009-00:44:23
+Cmp-Mod V01 Created by CVpcb (20080825c) date = 27/7/2009-01:20:49
 
 BeginCmp
 TimeStamp = /4A68BF50;
 Reference = C2;
 ValeurCmp = 1uF;
-IdModule  = ;
+IdModule  = CP36V;
 EndCmp
 
 BeginCmp
 TimeStamp = /4A68C286;
 Reference = C3;
 ValeurCmp = 1uF;
-IdModule  = ;
+IdModule  = CP36V;
 EndCmp
 
 BeginCmp
 TimeStamp = /4A68BF53;
 Reference = C5;
 ValeurCmp = 0.1uF;
-IdModule  = ;
+IdModule  = CP36V;
 EndCmp
 
 BeginCmp
 TimeStamp = /4A68CA0C;
 Reference = C6;
 ValeurCmp = 18pF;
-IdModule  = ;
+IdModule  = CP36V;
 EndCmp
 
 BeginCmp
 TimeStamp = /4A69FDCB;
 Reference = C7;
 ValeurCmp = 0.01uf;
-IdModule  = ;
+IdModule  = CP36V;
 EndCmp
 
 BeginCmp
 TimeStamp = /4A68CA0F;
 Reference = C8;
 ValeurCmp = 18pF;
-IdModule  = ;
+IdModule  = CP36V;
 EndCmp
 
 BeginCmp
 TimeStamp = /4A68CAAC;
 Reference = C9;
 ValeurCmp = 0.1uF;
-IdModule  = ;
+IdModule  = CP36V;
 EndCmp
 
 BeginCmp
@@ -81,7 +81,7 @@ BeginCmp
 TimeStamp = /4A6CBE19;
 Reference = P4;
 ValeurCmp = CONN_2;
-IdModule  = ;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
@@ -109,7 +109,7 @@ BeginCmp
 TimeStamp = /4A6CD444;
 Reference = P8;
 ValeurCmp = CONN_2;
-IdModule  = ;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
@@ -151,14 +151,14 @@ BeginCmp
 TimeStamp = /4A68C98E;
 Reference = SW1;
 ValeurCmp = SW_PUSH;
-IdModule  = ;
+IdModule  = mini-pb;
 EndCmp
 
 BeginCmp
 TimeStamp = /4A6CCADE;
 Reference = SW2;
 ValeurCmp = SW_PUSH;
-IdModule  = ;
+IdModule  = mini-pb;
 EndCmp
 
 BeginCmp

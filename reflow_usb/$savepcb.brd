@@ -1,0 +1,80 @@
+PCBNEW-BOARD Version 1 date 27/7/2009-01:03:39
+
+$GENERAL
+LayerCount 2
+Ly 1FFF8001
+Links 0
+NoConn 0
+Di -1256 -1256 1256 1256
+Ndraw 0
+Ntrack 0
+Nzone 0
+Nmodule 1
+Nnets 0
+$EndGENERAL
+
+$SHEETDESCR
+Sheet A4 11700 8267
+Title ""
+Date "27 jul 2009"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndSHEETDESCR
+
+$SETUP
+InternalUnit 0.000100 INCH
+UserGridSize 0.250000 0.250000 mm
+ZoneGridSize 250
+Layers 2
+Layer[0] Copper signal
+Layer[15] Component signal
+TrackWidth 170
+TrackWidthHistory 170
+TrackClearence 60
+ZoneClearence 150
+DrawSegmWidth 150
+EdgeSegmWidth 150
+ViaSize 450
+ViaDrill 250
+ViaSizeHistory 450
+MicroViaSize 200
+MicroViaDrill 80
+MicroViasAllowed 0
+TextPcbWidth 120
+TextPcbSize 600 800
+EdgeModWidth 150
+TextModSize 600 600
+TextModWidth 120
+PadSize 600 600
+PadDrill 320
+AuxiliaryAxisOrg 0 0
+$EndSETUP
+
+$MODULE mini-pushb
+Po 0 0 0 15 4A6CFCC1 00000000 ~~
+Li mini-pushb
+Sc 00000000
+AR 
+Op 0 0 0
+T0 197 1575 394 394 0 79 N V 21 "mini-pb"
+T1 3346 1575 394 394 0 79 N V 21 "VAL**"
+DS -1181 -984 -1181 984 150 21
+DS 1181 -984 1181 984 150 21
+DA 984 984 1181 984 900 150 21
+DA -984 984 -984 1181 900 150 21
+DA -984 -984 -1181 -984 900 150 21
+DA 984 -984 984 -1181 900 150 21
+DS 0 1181 -984 1181 150 21
+DS 0 1181 984 1181 150 21
+DS 0 -1181 -984 -1181 150 21
+DS 0 -1181 984 -1181 150 21
+$EndMODULE  mini-pushb
+$TRACK
+$EndTRACK
+$ZONE
+$EndZONE
+$EndBOARD
