@@ -1,4 +1,4 @@
-(pcb /home/wbd/work/programming/repos/kicad_projects/reflow_usb/reflow.dsn
+(pcb /home/wbd/repos/kicad_projects/reflow_usb/reflow.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
@@ -21,10 +21,9 @@
       )
     )
     (boundary
-      (path pcb 0  3800 -2700  7600 -2700  7600 -5300  3100 -5300  3100 -2700
-            3800 -2700)
+      (path pcb 0  7900 -5300  7900 -2700  3100 -2700  3100 -2700  3100 -5300)
     )
-    (via Via[0-1]_45:25_mil)
+    (via Via[0-1]_30:15_mil)
     (rule
       (width 12)
       (clearance 6.5)
@@ -33,47 +32,50 @@
   )
   (placement
     (component 14dip300
-      (place U3 6300 -4000 front 0 (PN AD595-AQ))
+      (place U3 6400 -4000 front 0 (PN AD595-AQ))
     )
     (component Crystal-TH
-      (place X1 5100 -4000 front 270 (PN 16MHz))
+      (place X1 5400 -4000 front 270 (PN 16MHz))
     )
     (component mini-pb
-      (place SW2 6700 -4800 front 0 (PN SW_PUSH))
-      (place SW1 6700 -3200 front 0 (PN SW_PUSH))
+      (place SW2 5450 -4850 front 0 (PN SW_PUSH))
+      (place SW1 5950 -4850 front 0 (PN SW_PUSH))
     )
     (component PIN_ARRAY_2X1
-      (place P8 7180 -4010 front 270 (PN CONN_2))
-      (place P4 7200 -3070 front 0 (PN CONN_2))
+      (place P8 6530 -4910 front 0 (PN CONN_2))
+      (place P4 6500 -3070 front 0 (PN CONN_2))
     )
     (component PIN_ARRAY_5x2
-      (place P7 4900 -4900 front 0 (PN CONN_5X2))
-      (place P6 5900 -3100 front 0 (PN CONN_5X2))
-      (place P5 5900 -4900 front 0 (PN CONN_5X2))
-      (place P3 3900 -4900 front 0 (PN CONN_5X2))
-      (place P2 4900 -3100 front 0 (PN CONN_5X2))
-      (place P1 3900 -3100 front 0 (PN CONN_5X2))
+      (place P6 4750 -4900 front 0 (PN CONN_5X2))
+      (place P5 3850 -4900 front 0 (PN CONN_5X2))
+      (place P2 5650 -3100 front 0 (PN CONN_5X2))
+      (place P1 4750 -3100 front 0 (PN CONN_5X2))
     )
     (component SM0805
-      (place R5 5730 -3500 front 0 (PN 1K))
-      (place R4 3410 -4070 front 0 (PN 22))
-      (place R3 3410 -3930 front 180 (PN 22))
-      (place R2 6025 -4435 front 0 (PN 47K))
-      (place R1 6030 -3500 front 0 (PN 47K))
-      (place D1 5450 -3500 front 180 (PN LED))
-      (place C9 3760 -4030 front 0 (PN 0.1uF))
-      (place C8 5400 -4200 front 270 (PN 18pF))
-      (place C7 3840 -4240 front 90 (PN 0.1uf))
-      (place C6 5400 -3800 front 270 (PN 18pF))
-      (place C5 3760 -3820 front 0 (PN 0.1uF))
-      (place C3 4250 -4520 front 270 (PN 1uF))
-      (place C2 3340 -3760 front 90 (PN 1uF))
+      (place R5 6030 -3500 front 0 (PN 1K))
+      (place R4 3710 -4070 front 0 (PN 22))
+      (place R3 3710 -3930 front 180 (PN 22))
+      (place R2 6400 -4450 front 270 (PN 47K))
+      (place R1 6330 -3500 front 180 (PN 47K))
+      (place D1 5750 -3500 front 180 (PN LED))
+      (place C9 4160 -4030 front 0 (PN 0.1uF))
+      (place C8 5850 -4450 front 270 (PN 18pF))
+      (place C7 4190 -4240 front 90 (PN 0.1uf))
+      (place C6 5850 -3900 front 270 (PN 18pF))
+      (place C5 4060 -3820 front 180 (PN 0.1uF))
+      (place C3 4500 -4470 front 270 (PN 1uF))
+      (place C2 3890 -3610 front 90 (PN 1uF))
+      (place C11 3600 -3600 front 90 (PN 20uF))
+      (place C10 3400 -3550 front 0 (PN 10uF))
     )
     (component TQFP_64
-      (place U2 4300 -4000 front 0 (PN AT90USB1287))
+      (place U2 4600 -4000 front 0 (PN AT90USB1287))
     )
     (component usb_b_mini
       (place U1 3000 -4000 front 270 (PN USB))
+    )
+    (component SOT223
+      (place U4 3850 -3150 front 0 (PN LX8117-05))
     )
   )
   (library
@@ -249,6 +251,20 @@
       (pin Round[A]Pad_50_mil @4 -68.9 86.6)
       (pin Round[A]Pad_50_mil @5 68.9 86.6)
     )
+    (image SOT223
+      (outline (path signal 8  -140 -60  -140 -180))
+      (outline (path signal 8  -140 -180  140 -180))
+      (outline (path signal 8  140 -180  140 -60))
+      (outline (path signal 8  -140 60  -140 90))
+      (outline (path signal 8  -140 90  -80 180))
+      (outline (path signal 8  -80 180  80 180))
+      (outline (path signal 8  80 180  140 90))
+      (outline (path signal 8  140 90  140 60))
+      (pin Rect[T]Pad_144x80_mil 4 0 130)
+      (pin Rect[T]Pad_40x80_mil 2 0 -130)
+      (pin Rect[T]Pad_40x80_mil 3 90 -130)
+      (pin Rect[T]Pad_40x80_mil 1 -90 -130)
+    )
     (padstack Round[A]Pad_50_mil
       (shape (circle Component 50))
       (shape (circle Copper 50))
@@ -276,6 +292,10 @@
       (shape (rect Component -17.5 -27.5 17.5 27.5))
       (attach off)
     )
+    (padstack Rect[T]Pad_40x80_mil
+      (shape (rect Component -20 -40 20 40))
+      (attach off)
+    )
     (padstack Rect[A]Pad_55x55_mil
       (shape (rect Component -27.5 -27.5 27.5 27.5))
       (shape (rect Copper -27.5 -27.5 27.5 27.5))
@@ -294,66 +314,52 @@
       (shape (rect Component -49.2 -43.3 49.2 43.3))
       (attach off)
     )
+    (padstack Rect[T]Pad_144x80_mil
+      (shape (rect Component -72 -40 72 40))
+      (attach off)
+    )
     (padstack Rect[T]Pad_19.7x78.7_mil
       (shape (rect Component -9.85 -39.35 9.85 39.35))
       (attach off)
     )
-    (padstack Via[0-1]_45:25_mil
-      (shape (circle Component 45))
-      (shape (circle Copper 45))
+    (padstack Via[0-1]_30:15_mil
+      (shape (circle Component 30))
+      (shape (circle Copper 30))
       (attach off)
     )
   )
   (network
-    (net N-000056
+    (net N-000055
       (pins U3-1 P4-1)
     )
     (net /GND
-      (pins U3-4 U3-7 U3-13 SW2-1 SW1-1 P8-2 P7-2 P6-2 P5-2 P3-2 P2-2 P1-2 C9-2 C8-2
-        C7-2 C6-2 C5-2 C3-2 C2-2 U2-6 U2-22 U2-53 U2-63 U1-6 U1-5)
+      (pins U3-4 U3-7 U3-13 SW2-1 SW1-1 P8-2 P6-2 P5-2 P2-2 P1-2 C9-2 C8-2 C7-2 C6-2
+        C5-2 C3-2 C2-2 U2-6 U2-22 U2-53 U2-63 U1-6 U1-5 C11-2 C10-2 U4-2)
     )
     (net /A0
       (pins U3-8 U3-9 P1-10 U2-51)
     )
     (net /PWR
-      (pins U3-11 P7-1 P6-1 P5-1 P3-1 P2-1 P1-1 R5-1 R2-1 R1-1 C7-1 C5-1 C2-1 U2-3
-        U2-8 U2-21 U2-52 U2-64 U1-1)
+      (pins U3-11 P6-1 P5-1 P2-1 P1-1 R5-1 R2-1 R1-1 C7-1 C5-1 C2-1 U2-3 U2-8 U2-21
+        U2-52 U2-64 C11-1 U4-4 U4-3)
     )
-    (net N-000005
+    (net N-000002
       (pins U3-14 P4-2)
     )
-    (net N-000069
+    (net N-000070
       (pins X1-1 C6-1 U2-24)
     )
-    (net N-000068
+    (net N-000069
       (pins X1-2 C8-1 U2-23)
     )
     (net /E2
-      (pins SW2-2 P7-8 R2-2 U2-43)
+      (pins SW2-2 R2-2 U2-43)
     )
-    (net N-000002
+    (net N-000001
       (pins SW1-2 R1-2 U2-20)
     )
     (net /E1
-      (pins P8-1 P7-9 U2-34)
-    )
-    (net /E7
-      (pins P7-3 U2-2)
-    )
-    (net /E6
-      (pins P7-4 U2-1)
-    )
-    (net /E5
-      (pins P7-5 U2-19)
-    )
-    (net /E4
-      (pins P7-6 U2-18)
-    )
-    (net /E3
-      (pins P7-7 U2-9)
-    )
-    (net /E0
-      (pins P7-10 D1-2 U2-33)
+      (pins P8-1 U2-34)
     )
     (net /D7
       (pins P6-3 U2-32)
@@ -403,30 +409,6 @@
     (net /B0
       (pins P5-10 U2-10)
     )
-    (net /F7
-      (pins P3-3 U2-54)
-    )
-    (net /F6
-      (pins P3-4 U2-55)
-    )
-    (net /F5
-      (pins P3-5 U2-56)
-    )
-    (net /F4
-      (pins P3-6 U2-57)
-    )
-    (net /F3
-      (pins P3-7 U2-58)
-    )
-    (net /F2
-      (pins P3-8 U2-59)
-    )
-    (net /F1
-      (pins P3-9 U2-60)
-    )
-    (net /F0
-      (pins P3-10 U2-61)
-    )
     (net /C7
       (pins P2-3 U2-42)
     )
@@ -472,34 +454,39 @@
     (net /A1
       (pins P1-9 U2-50)
     )
-    (net N-000028
+    (net N-000025
       (pins R5-2 D1-1)
     )
-    (net N-000032
+    (net N-000029
       (pins R4-1 U2-5)
     )
-    (net N-000033
+    (net N-000030
       (pins R4-2 U1-3)
     )
-    (net N-000031
+    (net N-000028
       (pins R3-1 U2-4)
     )
-    (net N-000030
+    (net N-000027
       (pins R3-2 U1-2)
     )
-    (net N-000029
+    (net /E0
+      (pins D1-2 U2-33)
+    )
+    (net N-000026
       (pins C9-1 U2-62)
     )
-    (net N-000034
+    (net N-000031
       (pins C3-1 U2-7)
+    )
+    (net /USB5V
+      (pins U1-1 C10-1 U4-1)
     )
     (class kicad_default /A0 /A1 /A2 /A3 /A4 /A5 /A6 /A7 /B0 /B1 /B2 /B3 /B4
       /B5 /B6 /B7 /C0 /C1 /C2 /C3 /C4 /C5 /C6 /C7 /D0 /D1 /D2 /D3 /D4 /D5
-      /D6 /D7 /E0 /E1 /E2 /E3 /E4 /E5 /E6 /E7 /F0 /F1 /F2 /F3 /F4 /F5 /F6
-      /F7 /GND /PWR N-000002 N-000005 N-000028 N-000029 N-000030 N-000031
-      N-000032 N-000033 N-000034 N-000056 N-000068 N-000069
+      /D6 /D7 /E0 /E1 /E2 /GND /PWR /USB5V N-000001 N-000002 N-000025 N-000026
+      N-000027 N-000028 N-000029 N-000030 N-000031 N-000055 N-000069 N-000070
       (circuit
-        (use_via Via[0-1]_45:25_mil)
+        (use_via Via[0-1]_30:15_mil)
       )
       (rule (width 12))
     )
