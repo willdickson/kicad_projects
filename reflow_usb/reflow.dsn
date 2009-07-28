@@ -1,4 +1,4 @@
-(pcb /home/wbd/repos/kicad_projects/reflow_usb/reflow.dsn
+(pcb /home/wbd/work/programming/repos/kicad_projects/reflow_usb/reflow.dsn
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
@@ -21,7 +21,7 @@
       )
     )
     (boundary
-      (path pcb 0  7900 -5300  7900 -2700  3100 -2700  3100 -2700  3100 -5300)
+      (path pcb 0  9200 -5400  2850 -5400  2850 -2600  2850 -2600  9200 -2600)
     )
     (via Via[0-1]_30:15_mil)
     (rule
@@ -76,6 +76,23 @@
     )
     (component SOT223
       (place U4 3850 -3150 front 0 (PN LX8117-05))
+    )
+    (component KYOTTO_SSRELAY
+      (place KYOTTO_SSRELAY 8000 -4000 front 0 (PN VAL**))
+    )
+    (component 4-40
+      (place H1 3000 -2850 front 0 (PN VAL**))
+      (place H5 9050 -2850 front 0 (PN VAL**))
+    )
+    (component 4-40::1
+      (place H2 3000 -5150 front 0 (PN VAL**))
+      (place H6 9050 -5150 front 0 (PN VAL**))
+    )
+    (component 4-40::2
+      (place H3 6900 -2750 front 0 (PN VAL**))
+    )
+    (component 4-40::3
+      (place H4 6900 -5200 front 0 (PN VAL**))
     )
   )
   (library
@@ -264,6 +281,38 @@
       (pin Rect[T]Pad_40x80_mil 2 0 -130)
       (pin Rect[T]Pad_40x80_mil 3 90 -130)
       (pin Rect[T]Pad_40x80_mil 1 -90 -130)
+    )
+    (image KYOTTO_SSRELAY
+      (outline (path signal 15  -866.1 1141.7  -866.1 -1141.7))
+      (outline (path signal 15  866.1 -1141.7  866.1 1141.7))
+      (outline (path signal 15  0 1141.7  -866.1 1141.7))
+      (outline (path signal 15  0 1141.7  866.1 1141.7))
+      (outline (path signal 15  0 -1141.7  -866.1 -1141.7))
+      (outline (path signal 15  0 -1141.7  866.1 -1141.7))
+      (pin Round[A]Pad_196.9_mil @1 0 -954.7)
+      (pin Round[A]Pad_196.9_mil @2 0 954.7)
+    )
+    (image 4-40
+      (pin Round[A]Pad_150_mil 1 0 100)
+    )
+    (image 4-40::1
+      (pin Round[A]Pad_150_mil 1 0 -100)
+    )
+    (image 4-40::2
+      (pin Round[A]Pad_150_mil 1 0 0)
+    )
+    (image 4-40::3
+      (pin Round[A]Pad_150_mil 1 0 -50)
+    )
+    (padstack Round[A]Pad_150_mil
+      (shape (circle Component 150))
+      (shape (circle Copper 150))
+      (attach off)
+    )
+    (padstack Round[A]Pad_196.9_mil
+      (shape (circle Component 196.9))
+      (shape (circle Copper 196.9))
+      (attach off)
     )
     (padstack Round[A]Pad_50_mil
       (shape (circle Component 50))
