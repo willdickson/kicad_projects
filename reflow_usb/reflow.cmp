@@ -1,59 +1,59 @@
-Cmp-Mod V01 Created by CVpcb (20080825c) date = 27/7/2009-01:20:49
+Cmp-Mod V01 Created by CVpcb (20080825c) date = 28/7/2009-01:04:25
 
 BeginCmp
 TimeStamp = /4A68BF50;
 Reference = C2;
 ValeurCmp = 1uF;
-IdModule  = CP36V;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4A68C286;
 Reference = C3;
 ValeurCmp = 1uF;
-IdModule  = CP36V;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4A68BF53;
 Reference = C5;
 ValeurCmp = 0.1uF;
-IdModule  = CP36V;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4A68CA0C;
 Reference = C6;
 ValeurCmp = 18pF;
-IdModule  = CP36V;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4A69FDCB;
 Reference = C7;
-ValeurCmp = 0.01uf;
-IdModule  = CP36V;
+ValeurCmp = 0.1uf;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4A68CA0F;
 Reference = C8;
 ValeurCmp = 18pF;
-IdModule  = CP36V;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4A68CAAC;
 Reference = C9;
 ValeurCmp = 0.1uF;
-IdModule  = CP36V;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4A68CB71;
 Reference = D1;
 ValeurCmp = LED;
-IdModule  = LEDV;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -116,35 +116,35 @@ BeginCmp
 TimeStamp = /4A6CC977;
 Reference = R1;
 ValeurCmp = 47K;
-IdModule  = R4;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4A6CCAE0;
 Reference = R2;
 ValeurCmp = 47K;
-IdModule  = R4;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4A68C112;
 Reference = R3;
 ValeurCmp = 22;
-IdModule  = R4;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4A68C10E;
 Reference = R4;
 ValeurCmp = 22;
-IdModule  = R4;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4A68CB5A;
 Reference = R5;
 ValeurCmp = 1K;
-IdModule  = R4;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
