@@ -1,4 +1,4 @@
-EESchema (20080825c)  >> Creation date: 28/7/2009-20:48:53
+EESchema (20080825c)  >> Creation date: 29/7/2009-00:31:57
 
 #Cmp ( order = Reference )
 | C2         1uF         
@@ -10,6 +10,8 @@ EESchema (20080825c)  >> Creation date: 28/7/2009-20:48:53
 | C9         0.1uF       
 | C10        10uF        
 | C11        20uF        
+| C12        2.2uF       
+| C13        1.0uF       
 | D1         LED         
 | P1         CONN_5X2    
 | P2         CONN_5X2    
@@ -28,6 +30,7 @@ EESchema (20080825c)  >> Creation date: 28/7/2009-20:48:53
 | U2         AT90USB1287 
 | U3         AD595-AQ    
 | U4         LX8117-05   
+| U5         DCP20507P   
 | X1         16MHz       
 #End Cmp
 
@@ -35,6 +38,7 @@ EESchema (20080825c)  >> Creation date: 28/7/2009-20:48:53
 | 0.1uF        C5        
 | 0.1uf        C7        
 | 0.1uF        C9        
+| 1.0uF        C13       
 | 10uF         C10       
 | 16MHz        X1        
 | 18pF         C6        
@@ -42,6 +46,7 @@ EESchema (20080825c)  >> Creation date: 28/7/2009-20:48:53
 | 1K           R5        
 | 1uF          C2        
 | 1uF          C3        
+| 2.2uF        C12       
 | 20uF         C11       
 | 22           R3        
 | 22           R4        
@@ -55,6 +60,7 @@ EESchema (20080825c)  >> Creation date: 28/7/2009-20:48:53
 | CONN_5X2     P2        
 | CONN_5X2     P5        
 | CONN_5X2     P6        
+| DCP20507P    U5        
 | LED          D1        
 | LX8117-05    U4        
 | SW_PUSH      SW1       

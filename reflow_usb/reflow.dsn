@@ -33,6 +33,7 @@
   (placement
     (component 14dip300
       (place U3 6400 -4000 front 0 (PN AD595-AQ))
+      (place U5 3500 -3425 front 0 (PN DCP20507P))
     )
     (component Crystal-TH
       (place X1 5400 -4000 front 270 (PN 16MHz))
@@ -46,15 +47,15 @@
       (place P4 6500 -3070 front 0 (PN CONN_2))
     )
     (component PIN_ARRAY_5x2
-      (place P6 4750 -4900 front 0 (PN CONN_5X2))
-      (place P5 3850 -4900 front 0 (PN CONN_5X2))
-      (place P2 5650 -3100 front 0 (PN CONN_5X2))
-      (place P1 4750 -3100 front 0 (PN CONN_5X2))
+      (place P6 4825 -4900 front 0 (PN CONN_5X2))
+      (place P5 3925 -4900 front 0 (PN CONN_5X2))
+      (place P2 5725 -3100 front 0 (PN CONN_5X2))
+      (place P1 4825 -3100 front 0 (PN CONN_5X2))
     )
     (component SM0805
       (place R5 6030 -3500 front 0 (PN 1K))
-      (place R4 3710 -4070 front 0 (PN 22))
-      (place R3 3710 -3930 front 180 (PN 22))
+      (place R4 3685 -4570 front 0 (PN 22))
+      (place R3 3685 -4430 front 180 (PN 22))
       (place R2 6400 -4450 front 270 (PN 47K))
       (place R1 6330 -3500 front 180 (PN 47K))
       (place D1 5750 -3500 front 180 (PN LED))
@@ -62,11 +63,13 @@
       (place C8 5850 -4450 front 270 (PN 18pF))
       (place C7 4190 -4240 front 90 (PN 0.1uf))
       (place C6 5850 -3900 front 270 (PN 18pF))
-      (place C5 4060 -3820 front 180 (PN 0.1uF))
+      (place C5 4100 -3700 front 180 (PN 0.1uF))
       (place C3 4500 -4470 front 270 (PN 1uF))
-      (place C2 3890 -3610 front 90 (PN 1uF))
-      (place C11 3600 -3600 front 90 (PN 20uF))
-      (place C10 3400 -3550 front 0 (PN 10uF))
+      (place C2 3990 -4160 front 90 (PN 1uF))
+      (place C11 3700 -4150 front 90 (PN 20uF))
+      (place C10 3775 -3725 front 0 (PN 10uF))
+      (place C13 4100 -3500 front 0 (PN 1.0uF))
+      (place C12 3425 -3725 front 0 (PN 2.2uF))
     )
     (component TQFP_64
       (place U2 4600 -4000 front 0 (PN AT90USB1287))
@@ -75,7 +78,7 @@
       (place U1 3000 -4000 front 270 (PN USB))
     )
     (component SOT223
-      (place U4 3850 -3150 front 0 (PN LX8117-05))
+      (place U4 4125 -3075 front 0 (PN LX8117-05))
     )
     (component KYOTTO_SSRELAY
       (place KYOTTO_SSRELAY 8000 -4000 front 0 (PN VAL**))
@@ -383,7 +386,8 @@
     )
     (net /GND
       (pins U3-4 U3-7 U3-13 SW2-1 SW1-1 P8-2 P6-2 P5-2 P2-2 P1-2 C9-2 C8-2 C7-2 C6-2
-        C5-2 C3-2 C2-2 U2-6 U2-22 U2-53 U2-63 U1-6 U1-5 C11-2 C10-2 U4-2)
+        C5-2 C3-2 C2-2 U2-6 U2-22 U2-53 U2-63 U1-6 U1-5 C11-2 C10-2 U4-2 U5-2 U5-5
+        C13-2 C12-2)
     )
     (net /A0
       (pins U3-8 U3-9 P1-10 U2-51)
@@ -395,10 +399,10 @@
     (net N-000002
       (pins U3-14 P4-2)
     )
-    (net N-000070
+    (net N-000081
       (pins X1-1 C6-1 U2-24)
     )
-    (net N-000069
+    (net N-000080
       (pins X1-2 C8-1 U2-23)
     )
     (net /E2
@@ -528,12 +532,16 @@
       (pins C3-1 U2-7)
     )
     (net /USB5V
-      (pins U1-1 C10-1 U4-1)
+      (pins U1-1 U5-1 C12-1)
     )
-    (class kicad_default /A0 /A1 /A2 /A3 /A4 /A5 /A6 /A7 /B0 /B1 /B2 /B3 /B4
-      /B5 /B6 /B7 /C0 /C1 /C2 /C3 /C4 /C5 /C6 /C7 /D0 /D1 /D2 /D3 /D4 /D5
-      /D6 /D7 /E0 /E1 /E2 /GND /PWR /USB5V N-000001 N-000002 N-000025 N-000026
-      N-000027 N-000028 N-000029 N-000030 N-000031 N-000055 N-000069 N-000070
+    (net /7V
+      (pins C10-1 U4-1 U5-6 C13-1)
+    )
+    (class kicad_default /7V /A0 /A1 /A2 /A3 /A4 /A5 /A6 /A7 /B0 /B1 /B2 /B3
+      /B4 /B5 /B6 /B7 /C0 /C1 /C2 /C3 /C4 /C5 /C6 /C7 /D0 /D1 /D2 /D3 /D4
+      /D5 /D6 /D7 /E0 /E1 /E2 /GND /PWR /USB5V N-000001 N-000002 N-000025
+      N-000026 N-000027 N-000028 N-000029 N-000030 N-000031 N-000055 N-000080
+      N-000081
       (circuit
         (use_via Via[0-1]_30:15_mil)
       )

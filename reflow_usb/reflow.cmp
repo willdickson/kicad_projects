@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CVpcb (20080825c) date = 28/7/2009-13:45:39
+Cmp-Mod V01 Created by CVpcb (20080825c) date = 28/7/2009-23:31:11
 
 BeginCmp
 TimeStamp = /4A68BF50;
@@ -60,6 +60,20 @@ BeginCmp
 TimeStamp = /4A6EFE16;
 Reference = C11;
 ValeurCmp = 20uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A6F8699;
+Reference = C12;
+ValeurCmp = 2.2uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A6F869D;
+Reference = C13;
+ValeurCmp = 1.0uF;
 IdModule  = SM0805;
 EndCmp
 
@@ -187,6 +201,13 @@ TimeStamp = /4A6EFDC0;
 Reference = U4;
 ValeurCmp = LX8117-05;
 IdModule  = SOT223;
+EndCmp
+
+BeginCmp
+TimeStamp = /4A6F8644;
+Reference = U5;
+ValeurCmp = DCP20507P;
+IdModule  = 14dip300;
 EndCmp
 
 BeginCmp
