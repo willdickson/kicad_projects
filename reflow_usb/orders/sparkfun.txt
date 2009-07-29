@@ -1,0 +1,25 @@
+
+William Dickson
+1783 Rose Villa St
+rear house
+Pasadena, California 91106
+United States           USPS First Class Mail
+
+
+Payment Details
+
+Billing Address  |  Edit            Payment Method(s)  |  Edit
+
+William Dickson
+1783 Rose Villa St
+rear house
+Pasadena, California 91106
+United States           Credit Card
+
+
+Items on Order
+Product Name    Unit Price  Quantity    Subtotal
+Thermocouple Type-K Glass Braid Insulated   $13.95  2   $27.90
+Subtotal:       $27.90
+Shipping and Handling:  +   $3.22
+Grand Total:    $31.12

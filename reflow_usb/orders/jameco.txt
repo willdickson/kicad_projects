@@ -1,0 +1,31 @@
+Shipping Details
+
+Email Address: wbd@caltech.edu
+
+Jameco Order #: 15053181
+
+Shipping Method: UPS Ground Commercial $7.00 for 1st 2 lbs.
+
+Delivery estimate: up to 6 days
+
+Shipping Address:   Billing Address:
+William Dickson
+1783 Rose Villa St
+Pasadena, CA 91106
+US
+William Dickson
+1783 Rose Villa St
+Pasadena, CA 91106
+US
+
+Order Summary:
+
+ITEM:
+
+1. RELAY,SOLID STATE,DC/AC
+INPT:3-32VDC,OUT:280VAC@75A    Jameco#:176736    Qty: 2    $79.90
+Order will arrive in 1 shipment
+Subtotal of Items: $79.90
+Shipping: TBD @ Ship
+Tax: $6.59
+
