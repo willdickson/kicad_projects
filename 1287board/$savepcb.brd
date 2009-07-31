@@ -1,0 +1,305 @@
+PCBNEW-BOARD Version 1 date 30/7/2009-20:39:22
+
+$GENERAL
+LayerCount 2
+Ly 1FFF8001
+Links 97
+NoConn 97
+Di 0 0 117000 82670
+Ndraw 0
+Ntrack 0
+Nzone 0
+Nmodule 0
+Nnets 60
+$EndGENERAL
+
+$SHEETDESCR
+Sheet A4 11700 8267
+Title ""
+Date "30 jul 2009"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndSHEETDESCR
+
+$SETUP
+InternalUnit 0.000100 INCH
+UserGridSize 0.050000 0.050000 INCH
+ZoneGridSize 250
+Layers 2
+Layer[0] Copper signal
+Layer[15] Component signal
+TrackWidth 170
+TrackWidthHistory 170
+TrackClearence 60
+ZoneClearence 150
+DrawSegmWidth 150
+EdgeSegmWidth 150
+ViaSize 450
+ViaDrill 250
+ViaSizeHistory 450
+MicroViaSize 200
+MicroViaDrill 80
+MicroViasAllowed 0
+TextPcbWidth 120
+TextPcbSize 600 800
+EdgeModWidth 150
+TextModSize 600 600
+TextModWidth 120
+PadSize 600 600
+PadDrill 320
+AuxiliaryAxisOrg 0 0
+$EndSETUP
+
+$EQUIPOT
+Na 0 ""
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 1 "N-000061"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 2 "N-000060"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 3 "/GND"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 4 "N-000032"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 5 "/E0"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 6 "/E1"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 7 "/E2"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 8 "/E3"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 9 "/E4"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 10 "/E5"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 11 "/E6"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 12 "/E7"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 13 "/PWR"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 14 "/D0"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 15 "/D1"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 16 "/D2"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 17 "/D3"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 18 "/D4"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 19 "/D5"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 20 "/D6"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 21 "/D7"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 22 "/B0"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 23 "/B1"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 24 "/B2"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 25 "/B3"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 26 "/B4"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 27 "/B5"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 28 "/B6"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 29 "/B7"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 30 "/F0"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 31 "/F1"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 32 "/F2"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 33 "/F3"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 34 "/F4"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 35 "/F5"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 36 "/F6"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 37 "/F7"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 38 "/C0"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 39 "/C1"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 40 "/C2"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 41 "/C3"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 42 "/C4"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 43 "/C5"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 44 "/C6"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 45 "/C7"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 46 "/A0"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 47 "/A1"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 48 "/A2"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 49 "/A3"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 50 "/A4"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 51 "/A5"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 52 "/A6"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 53 "/A7"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 54 "N-000033"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 55 "N-000029"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 56 "N-000028"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 57 "N-000030"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 58 "N-000031"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 59 "N-000026"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 60 "N-000027"
+St ~
+$EndEQUIPOT
+$TRACK
+$EndTRACK
+$ZONE
+$EndZONE
+$EndBOARD
