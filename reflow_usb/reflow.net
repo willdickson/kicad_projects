@@ -1,54 +1,54 @@
-# EESchema Netlist Version 1.1 created  28/7/2009-23:31:11
+# EESchema Netlist Version 1.1 created  7/8/2009-18:51:08
 (
- ( /4A68BF50 SM0805 C2 1uF
+ ( /4A68BF50 SM0805B C1 1uF
   ( 1 /PWR )
   ( 2 /GND )
  )
- ( /4A68C286 SM0805 C3 1uF
-  ( 1 N-000031 )
+ ( /4A68C286 SM0805B C2 1uF
+  ( 1 N-000032 )
   ( 2 /GND )
  )
- ( /4A68BF53 SM0805 C5 0.1uF
+ ( /4A68BF53 SM0805B C3 0.1uF
   ( 1 /PWR )
   ( 2 /GND )
  )
- ( /4A68CA0C SM0805 C6 18pF
-  ( 1 N-000081 )
+ ( /4A68CA0C SM0805B C4 18pF
+  ( 1 N-000070 )
   ( 2 /GND )
  )
- ( /4A69FDCB SM0805 C7 0.1uf
+ ( /4A69FDCB SM0805B C5 0.1uf
   ( 1 /PWR )
   ( 2 /GND )
  )
- ( /4A68CA0F SM0805 C8 18pF
-  ( 1 N-000080 )
+ ( /4A68CA0F SM0805B C6 18pF
+  ( 1 N-000069 )
   ( 2 /GND )
  )
- ( /4A68CAAC SM0805 C9 0.1uF
-  ( 1 N-000026 )
+ ( /4A68CAAC SM0805B C7 0.1uF
+  ( 1 N-000027 )
   ( 2 /GND )
  )
- ( /4A6EFE12 SM0805 C10 10uF
-  ( 1 /7V )
-  ( 2 /GND )
- )
- ( /4A6EFE16 SM0805 C11 20uF
+ ( /4A7B79C2 SM0805B C8 0.1uF
   ( 1 /PWR )
   ( 2 /GND )
  )
- ( /4A6F8699 SM0805 C12 2.2uF
-  ( 1 /USB5V )
+ ( /4A7B7B2A SM0805B C9 1.0uF
+  ( 1 /PWR )
   ( 2 /GND )
  )
- ( /4A6F869D SM0805 C13 1.0uF
-  ( 1 /7V )
+ ( /4A68CB71 SM0805B D1 LED
+  ( 1 N-000058 )
   ( 2 /GND )
  )
- ( /4A68CB71 SM0805 D1 LED
-  ( 1 N-000025 )
-  ( 2 /E0 )
+ ( /4A7B7A95 SM0805B D2 LED
+  ( 1 N-000002 )
+  ( 2 /GND )
  )
- ( /4A6A457E PIN_ARRAY_5x2 P1 CONN_5X2
+ ( /4A6CD444 PIN_ARRAY_2X1 P1 CONN_2
+  ( 1 /E1 )
+  ( 2 /GND )
+ )
+ ( /4A6A457E HEADER_5x2_REG P2 CONN_5X2
   ( 1 /PWR )
   ( 2 /GND )
   ( 3 /A7 )
@@ -60,7 +60,7 @@
   ( 9 /A1 )
   ( 10 /A0 )
  )
- ( /4A6A459D PIN_ARRAY_5x2 P2 CONN_5X2
+ ( /4A6A459D HEADER_5x2_REG P3 CONN_5X2
   ( 1 /PWR )
   ( 2 /GND )
   ( 3 /C7 )
@@ -73,10 +73,10 @@
   ( 10 /C0 )
  )
  ( /4A6CBE19 PIN_ARRAY_2X1 P4 CONN_2
-  ( 1 N-000055 )
-  ( 2 N-000002 )
+  ( 1 N-000056 )
+  ( 2 N-000004 )
  )
- ( /4A6A4585 PIN_ARRAY_5x2 P5 CONN_5X2
+ ( /4A6A4585 HEADER_5x2_REG P5 CONN_5X2
   ( 1 /PWR )
   ( 2 /GND )
   ( 3 /B7 )
@@ -88,7 +88,7 @@
   ( 9 /B1 )
   ( 10 /B0 )
  )
- ( /4A6A45A0 PIN_ARRAY_5x2 P6 CONN_5X2
+ ( /4A6A45A0 HEADER_5x2_REG P6 CONN_5X2
   ( 1 /PWR )
   ( 2 /GND )
   ( 3 /D7 )
@@ -100,54 +100,54 @@
   ( 9 /D1 )
   ( 10 /D0 )
  )
- ( /4A6CD444 PIN_ARRAY_2X1 P8 CONN_2
-  ( 1 /E1 )
-  ( 2 /GND )
- )
- ( /4A6CC977 SM0805 R1 47K
+ ( /4A6CC977 SM0805B R1 47K
   ( 1 /PWR )
-  ( 2 N-000001 )
+  ( 2 N-000003 )
  )
- ( /4A6CCAE0 SM0805 R2 47K
+ ( /4A6CCAE0 SM0805B R2 47K
   ( 1 /PWR )
   ( 2 /E2 )
  )
- ( /4A68C112 SM0805 R3 22
-  ( 1 N-000028 )
-  ( 2 N-000027 )
- )
- ( /4A68C10E SM0805 R4 22
+ ( /4A68C112 SM0805B R3 22
   ( 1 N-000029 )
-  ( 2 N-000030 )
+  ( 2 N-000028 )
  )
- ( /4A68CB5A SM0805 R5 1K
+ ( /4A68C10E SM0805B R4 22
+  ( 1 N-000030 )
+  ( 2 N-000031 )
+ )
+ ( /4A68CB5A SM0805B R5 1K
+  ( 1 /E0 )
+  ( 2 N-000058 )
+ )
+ ( /4A7B7A81 SM0805B R6 1K
   ( 1 /PWR )
-  ( 2 N-000025 )
+  ( 2 N-000002 )
  )
  ( /4A68C98E mini-pb SW1 SW_PUSH
   ( 1 /GND )
-  ( 2 N-000001 )
+  ( 2 N-000003 )
  )
  ( /4A6CCADE mini-pb SW2 SW_PUSH
   ( 1 /GND )
   ( 2 /E2 )
  )
  ( /4A6A3FF7 usb_b_mini U1 USB
-  ( 1 /USB5V )
-  ( 2 N-000027 )
-  ( 3 N-000030 )
+  ( 1 /PWR )
+  ( 2 N-000028 )
+  ( 3 N-000031 )
   ( 4 ? )
   ( 5 /GND )
   ( 6 /GND )
  )
- ( /4A6A3E88 TQFP_64 U2 AT90USB1287
+ ( /4A6A3E88 at90usb1287 U2 AT90USB1287
   ( 1 ? )
   ( 2 ? )
   ( 3 /PWR )
-  ( 4 N-000028 )
-  ( 5 N-000029 )
+  ( 4 N-000029 )
+  ( 5 N-000030 )
   ( 6 /GND )
-  ( 7 N-000031 )
+  ( 7 N-000032 )
   ( 8 /PWR )
   ( 9 ? )
   ( 10 /B0 )
@@ -160,11 +160,11 @@
   ( 17 /B7 )
   ( 18 ? )
   ( 19 ? )
-  ( 20 N-000001 )
+  ( 20 N-000003 )
   ( 21 /PWR )
   ( 22 /GND )
-  ( 23 N-000080 )
-  ( 24 N-000081 )
+  ( 23 N-000069 )
+  ( 24 N-000070 )
   ( 25 /D0 )
   ( 26 /D1 )
   ( 27 /D2 )
@@ -202,13 +202,13 @@
   ( 59 ? )
   ( 60 ? )
   ( 61 ? )
-  ( 62 N-000026 )
+  ( 62 N-000027 )
   ( 63 /GND )
   ( 64 /PWR )
   ( PAD /GND )
  )
  ( /4A6CBC45 14dip300 U3 AD595-AQ
-  ( 1 N-000055 )
+  ( 1 N-000056 )
   ( 2 ? )
   ( 3 ? )
   ( 4 /GND )
@@ -221,42 +221,28 @@
   ( 11 /PWR )
   ( 12 ? )
   ( 13 /GND )
-  ( 14 N-000002 )
- )
- ( /4A6EFDC0 SOT223 U4 LX8117-05
-  ( 1 /7V )
-  ( 2 /GND )
-  ( 3 /PWR )
-  ( 4 /PWR )
- )
- ( /4A6F8644 14dip300 U5 DCP20507P
-  ( 1 /USB5V )
-  ( 2 /GND )
-  ( 3 ? )
-  ( 4 ? )
-  ( 5 /GND )
-  ( 6 /7V )
-  ( 7 ? )
-  ( 8 ? )
-  ( 9 ? )
-  ( 10 ? )
-  ( 11 ? )
-  ( 12 ? )
-  ( 13 ? )
-  ( 14 ? )
+  ( 14 N-000004 )
  )
  ( /4A68C9F1 Crystal-TH X1 16MHz
-  ( 1 N-000081 )
-  ( 2 N-000080 )
+  ( 1 N-000070 )
+  ( 2 N-000069 )
  )
 )
 *
 { Allowed footprints by component:
+$component C1
+ CP*
+ SM*
+$endlist
 $component C2
  CP*
  SM*
 $endlist
 $component C3
+ CP*
+ SM*
+$endlist
+$component C4
  CP*
  SM*
 $endlist
@@ -277,22 +263,6 @@ $component C8
  SM*
 $endlist
 $component C9
- CP*
- SM*
-$endlist
-$component C10
- CP*
- SM*
-$endlist
-$component C11
- CP*
- SM*
-$endlist
-$component C12
- CP*
- SM*
-$endlist
-$component C13
  CP*
  SM*
 $endlist
@@ -317,6 +287,11 @@ $component R4
  SM0805
 $endlist
 $component R5
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R6
  R?
  SM0603
  SM0805
