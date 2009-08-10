@@ -13,6 +13,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Label 10600 2300 0    60   ~
+F1
 Text Label 6950 6700 0    60   ~
 GND
 Wire Wire Line
@@ -480,8 +482,6 @@ F 1 "CONN_2" V 6100 7000 40  0000 C C
 	1    6050 7000
 	1    0    0    -1  
 $EndComp
-Text Label 10600 2300 0    60   ~
-A0
 Text Label 2150 4200 0    60   ~
 PWR
 $Comp
