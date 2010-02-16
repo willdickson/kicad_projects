@@ -1,0 +1,157 @@
+Cmp-Mod V01 Created by CVpcb (20080825c) date = 15/2/2010-18:06:56
+
+BeginCmp
+TimeStamp = /4B6F2BC7;
+Reference = C4;
+ValeurCmp = 18pF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B6F358E;
+Reference = C5;
+ValeurCmp = 1uF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B6F2BD2;
+Reference = C6;
+ValeurCmp = 18pF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B6F350F;
+Reference = C8;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B6F3332;
+Reference = C9;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B6F33A6;
+Reference = C10;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B6F33A9;
+Reference = C11;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B6F55C4;
+Reference = C12;
+ValeurCmp = 0.1uF;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B6F4415;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = SM0805_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B6EF606;
+Reference = IC1;
+ValeurCmp = AT90USB128;
+IdModule  = QFN64_0.5mmPitch_9x9mm_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B6F339F;
+Reference = L3;
+ValeurCmp = ferrite_120@100MHz;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B6F4EA4;
+Reference = P1;
+ValeurCmp = CONN_30;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B78ACDF;
+Reference = P2;
+ValeurCmp = CONN_30;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B6F3621;
+Reference = R1;
+ValeurCmp = 47K;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B6F2AAF;
+Reference = R3;
+ValeurCmp = 22;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B6F2ABC;
+Reference = R4;
+ValeurCmp = 22;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B6F4430;
+Reference = R5;
+ValeurCmp = 1K;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B6F3617;
+Reference = R6;
+ValeurCmp = 47K;
+IdModule  = SM0603_Opendous;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B6F35CF;
+Reference = SW1;
+ValeurCmp = SWITCH_PUSHBUTTON;
+IdModule  = Switch_SMT_EVQ;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B6F35DF;
+Reference = SW2;
+ValeurCmp = SWITCH_PUSHBUTTON;
+IdModule  = Switch_SMT_EVQ;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B6F27B5;
+Reference = U1;
+ValeurCmp = USB;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B6F2BA9;
+Reference = X1;
+ValeurCmp = 16MHz;
+IdModule  = Crystal_6x3.3mm_ABM7;
+EndCmp
+
+EndListe
